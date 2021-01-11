@@ -1,4 +1,4 @@
-# pro# programmers 가장 큰 수 김은비
+# programmers 가장 큰 수 김은비
 
 def solution(numbers):
     result = [] #가장 큰 수를 저장할 리스트 
