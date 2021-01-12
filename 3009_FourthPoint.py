@@ -3,7 +3,7 @@
 X = [] #x축 좌표
 Y = [] #y축 좌표
 
-for i in range(3): #x,y 좌표쌍을 3개 입력받아 각각의 리스트에 append
+for i in range(3): #x,y 좌표쌍을 3개씩 입력받아 각각의 리스트에 append
     _x, _y = map(int, input().split())
     X.append(_x)
     Y.append(_y)
