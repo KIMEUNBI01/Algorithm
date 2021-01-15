@@ -11,7 +11,7 @@ def pop():
         return -1 #만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다
     else:
         # pop()은 빼고 나머지 수를 앞으로 다시 옮길때 O(n)의 시간이 소요되기 때문에 deque로 구현하여 popleft()를 이용한다
-        return stack.popleft() #아니면 큐에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다
+        return stack.popleft() #아니면 스택에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다
 
 def size():
 	return len(stack) #스택에 들어있는 정수의 개수를 출력한다
@@ -23,16 +23,16 @@ def empty():
 		return 0
         
 def front():
-    if len(stack) == 0: #만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다
+    if len(stack) == 0: #만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다
         return -1
     else:
-        return stack[0] #아니면 큐의 가장 앞에 있는 정수를 출력한다
+        return stack[0] #아니면 스택의 가장 앞에 있는 정수를 출력한다
         
 def back():
-    if len(stack) == 0: #만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다
+    if len(stack) == 0: #만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다
         return -1
     else:
-        return stack[-1] #아니면 큐의 가장 뒤에 있는 정수를 출력한다
+        return stack[-1] #아니면 스택의 가장 뒤에 있는 정수를 출력한다
 
 N = int(input())
 stack = deque([]) #pop()에서 popleft()함수를 사용하기 위해 deque로 구현한다
