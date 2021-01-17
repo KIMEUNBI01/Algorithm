@@ -1,3 +1,5 @@
+# 11866 백준 김은비
+
 #1번부터 N번까지 N명의 사람이 원을 이루면서 앉아있고, 양의 정수 K(≤ N)가 주어진다
 N, K = map(int, input().split())
 stack = [i for i in range(1, N+1)]
