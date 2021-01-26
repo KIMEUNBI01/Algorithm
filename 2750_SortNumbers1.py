@@ -6,7 +6,7 @@ num = []
 for _ in range(N) : 
     num.append(int(input()))
 
-# Bubble Sort
+# Sort to Bubble
 for i in range(len(num)) : 
     for j in range(len(num)) : 
         if num[i] < num[j] : 
