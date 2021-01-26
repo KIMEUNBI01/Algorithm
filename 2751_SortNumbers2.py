@@ -1,6 +1,6 @@
 # 백준 2751 김은비
 
-N = int(input()) #수의 개수
+N = int(input()) 
 num = []
 
 for i in range(N): #입력받은 수의 개수만큼 숫자 입력받기
