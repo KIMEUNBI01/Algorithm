@@ -1,11 +1,11 @@
 # programmers 가장 큰 수 김은비
 
 def solution(numbers):
-    result = [] #가장 큰 수를 저장할 리스트 
+    result = [] #가장 큰 수를 저장할 배열
     
     for n in numbers: 
         number = str(n) #원소 n
-        add = list(str(n)) #원소 n을 4자리로 만들 리스트 
+        add = list(str(n)) #원소 n을 4자리로 만들 배열
 
         #numbers의 원소는 0 이상 1,000 이하이기 때문에 정수를 모두 4자리로 만든다
         i = 0
